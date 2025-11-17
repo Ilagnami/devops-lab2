@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: my-app-container
-        image: your-docker-image:latest
+        image: ilagnami/my-app:latest
         ports:
         - containerPort: 8080
