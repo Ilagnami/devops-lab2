@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: my-app:latest    
+        image: ilagnami/my-app:latest    
         ports:
         - containerPort: 8080
         imagePullPolicy: Never   
