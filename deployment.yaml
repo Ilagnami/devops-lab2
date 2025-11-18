@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: ilagnami/my-app:latest    # образ на Docker Hub
+        image: ilagnami/my-app:latest
         ports:
-        - containerPort: 8080
-        imagePullPolicy: IfNotPresent    # подтягиваем образ с Docker Hub, если нет локального
+        - containerPort: 5000   
+        imagePullPolicy: Always
